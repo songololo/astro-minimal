@@ -1,0 +1,11 @@
+# mac
+.DS_Store
+
+# Dev
+build/
+dist/
+
+# node modules and gridsome
+node_modules/
+.cache
+.temp

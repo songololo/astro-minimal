@@ -1,4 +1,6 @@
 ---
+import { Image } from 'astro:assets'
+import gingerCat from '~/assets/ginger_cat.jpeg'
 ---
 
 <html lang="en">
@@ -11,5 +13,6 @@
 	</head>
 	<body>
 		<h1>Astro</h1>
+		<Image src={gingerCat} width={400} height={400} alt=''></Image>
 	</body>
 </html>
